@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Persona persona = new Persona();
-            persona.Dni = "";
-            Console.WriteLine(persona.Dni);
+            persona.Dni = "53817232S";
+            Console.WriteLine("DNI: " + persona.Dni);
         }
     }
 
@@ -49,32 +49,23 @@
         {
             set
             {
-                if (dni == null)
-                {
-                    dni = "Error";
-                }
+                dni = value.Substring(0, 8);
             }
+
             get
             {
                 string letter = "";
                 string[] control = { "T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E" };
-                try
-                {
-                    int calc = Convert.ToInt32(dni) % 23;
+                int calc = Convert.ToInt32(dni) % 23;
 
-                    for (int i = 0; i < control.Length; i++)
-                    {
-                        letter = control[calc];
-                    }
-
-                }
-                catch (FormatException)
+                for (int i = 0; i < control.Length; i++)
                 {
-                    Console.WriteLine("Error, DNI invalid");
+                    letter = control[calc];
                 }
+
                 return dni + letter;
-
             }
+
         }
     }
 }

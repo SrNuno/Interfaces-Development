@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\EntireNewsletter"
   ],
-  "SelectedNode": "\\Ejercicio1.sln",
+  "SelectedNode": "\\EntireNewsletter\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -31,7 +31,7 @@ namespace Ejercicio5
             }
             else
             {
-                dialog = MessageBox.Show(text + $"\"{txtInfo.Text}\"?", caption, btns, icon);
+                dialog = MessageBox.Show($"\"{text}{txtInfo.Text}\"?", caption, btns, icon);
                 if (dialog == DialogResult.Yes)
                 {
                     this.Text = txtInfo.Text;

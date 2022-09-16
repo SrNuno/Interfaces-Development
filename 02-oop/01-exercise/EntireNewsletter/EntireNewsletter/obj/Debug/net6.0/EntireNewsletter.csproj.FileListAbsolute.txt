@@ -1,0 +1,15 @@
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\bin\Debug\net6.0\EntireNewsletter.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\bin\Debug\net6.0\EntireNewsletter.deps.json
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\bin\Debug\net6.0\EntireNewsletter.runtimeconfig.json
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\bin\Debug\net6.0\EntireNewsletter.dll
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\bin\Debug\net6.0\EntireNewsletter.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.AssemblyInfoInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.AssemblyInfo.cs
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.dll
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\refint\EntireNewsletter.dll
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\EntireNewsletter.genruntimeconfig.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interfaces-Development\02-oop\01-exercise\EntireNewsletter\EntireNewsletter\obj\Debug\net6.0\ref\EntireNewsletter.dll

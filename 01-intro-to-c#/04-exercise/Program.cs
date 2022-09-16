@@ -29,8 +29,8 @@
                             Random random = new Random();
 
                             Console.Write("\tDo you want enter number finish? (Y/N):");
-                            answer = Convert.ToChar(Console.ReadLine());
-                            if (answer == 'Y' || answer == 'y')
+                            answer = Convert.ToChar(Console.ReadLine().ToUpper());
+                            if (answer == 'Y' )
                             {
                                 do
                                 {
@@ -108,7 +108,7 @@
                             string[] results = new string[14];
                             for (int i = 0; i < results.Length; i++)
                             {
-                                Console.WriteLine("\tResult {0}: \t{1}", i, returnResult());
+                                Console.WriteLine("\tResult {0,10}: {1,2}", i, returnResult());
                             }
                             Console.WriteLine();
                             break;

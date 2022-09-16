@@ -1,0 +1,33 @@
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\bin\Debug\Ejercicio3.exe.config
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\bin\Debug\Ejercicio3.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\bin\Debug\Ejercicio3.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.Form1.resources
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.Properties.Resources.resources
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio3\Ejercicio3\obj\Debug\Ejercicio3.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\bin\Debug\Ejercicio3.exe.config
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\bin\Debug\Ejercicio3.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\bin\Debug\Ejercicio3.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.Form1.resources
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.Properties.Resources.resources
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\bin\Debug\Ejercicio3.exe.config
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\bin\Debug\Ejercicio3.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\bin\Debug\Ejercicio3.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.Form1.resources
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.Properties.Resources.resources
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.GenerateResource.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\03-exercise\Ejercicio3\obj\Debug\Ejercicio3.pdb

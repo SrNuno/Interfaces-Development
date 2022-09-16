@@ -99,8 +99,99 @@ abstract class Persona
     {
     }
 
-    abstract double hacienda()
+    public abstract double hacienda()
     {
         return 0.0;
+    }
+}
+
+class Empleado : Persona
+{
+    private double salary;
+    public double Salary
+    {
+        set
+        {
+            if (salary < 600)
+            {
+                irpf = 7;
+            }
+            else if (salary < 3000)
+            {
+                irpf = 15;
+            }
+            else
+            {
+                irpf = 20;
+            }
+        }
+
+        get { return salary; }
+    }
+
+    private double irpf;
+    public double IRPF
+    {
+        get { return irpf; }
+    }
+
+    private string phoneNumber;
+    public string PhoneNumber
+    {
+        get { return "+34" + phoneNumber; }
+    }
+
+    public void showCampsEmp()
+    {
+        base.showCamps();
+        Console.WriteLine("Salary: " + this.Salary);
+        Console.WriteLine("IRPF: " + this.IRPF);
+        Console.WriteLine("Phone number: " + this.PhoneNumber);
+    }
+
+    public void showCampsEmp(int param)
+    {
+        switch (param)
+        {
+            case 0:
+                Console.WriteLine("Name: " + base.Name);
+                break;
+
+            case 1:
+                Console.WriteLine("Name: " + base.Surname);
+                break;
+
+            case 2:
+                Console.WriteLine("Name: " + base.Age);
+                break;
+
+            case 3:
+                Console.WriteLine("Name: " + base.Dni);
+                break;
+
+            case 4:
+                Console.WriteLine("Name: " + this.Salary);
+                break;
+
+            case 5:
+                Console.WriteLine("Name: " + this.IRPF);
+                break;
+
+            case 6:
+                Console.WriteLine("Name: " + this.PhoneNumber);
+                break;
+        }
+    }
+
+    public override double hacienda()
+    {
+        return IRPF * Salary / 100;
+    }
+
+    public Empleado(double salary, double irpf, string phoneNumber)
+    {
+        Salary = salary;
+        this.irpf = irpf;
+        this.phoneNumber = phoneNumber;
     }
 }

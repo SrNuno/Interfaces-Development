@@ -1,0 +1,15 @@
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\bin\Debug\net6.0\CoolMenu.exe
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\bin\Debug\net6.0\CoolMenu.deps.json
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\bin\Debug\net6.0\CoolMenu.runtimeconfig.json
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\bin\Debug\net6.0\CoolMenu.dll
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\bin\Debug\net6.0\CoolMenu.pdb
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.AssemblyInfoInputs.cache
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.AssemblyInfo.cs
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.dll
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\refint\CoolMenu.dll
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.pdb
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\CoolMenu.genruntimeconfig.cache
+C:\Users\Nuno\Desktop\2_DAM\Interfaces-Development\tests\CoolMenu\CoolMenu\CoolMenu\obj\Debug\net6.0\ref\CoolMenu.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interface-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj": {}
+    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interface-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj": {
+    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interface-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj",
+        "projectUniqueName": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj",
         "projectName": "Ejercicio6",
-        "projectPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interface-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj",
+        "projectPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\Ejercicio6.csproj",
         "packagesPath": "C:\\Users\\Nuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interface-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\obj\\",
+        "outputPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\06-exercise\\Ejercicio6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuno\\AppData\\Roaming\\NuGet\\NuGet.Config",

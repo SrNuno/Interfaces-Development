@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuno\\Desktop\\2_DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj": {}
+    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuno\\Desktop\\2_DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj": {
+    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuno\\Desktop\\2_DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj",
+        "projectUniqueName": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj",
         "projectName": "EntireNewsletter",
-        "projectPath": "C:\\Users\\Nuno\\Desktop\\2_DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj",
+        "projectPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\EntireNewsletter.csproj",
         "packagesPath": "C:\\Users\\Nuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuno\\Desktop\\2_DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\obj\\",
+        "outputPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\02-oop\\01-exercise\\EntireNewsletter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

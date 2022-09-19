@@ -17,18 +17,18 @@ namespace Ejercicio6
         }
 
 
-        static Boolean calcFactorial(int n, ref double facto)
+        static bool calcFactorial(int n, ref double facto)
         {
+            if (n < 0 || n > 10)
+            {
+                return false;
+            }
             facto = 1;
             for (int i = n; i > 0; i--)
             {
                 facto *= i;
             }
 
-            if (facto < 0 || facto > 10)
-            {
-                return false;
-            }
             return true;
         }
 
@@ -43,8 +43,8 @@ namespace Ejercicio6
                 auxCol = random.Next(1, 21);
                 auxRow = random.Next(1, 21);
 
-                Console.WriteLine("*");
                 Console.SetCursorPosition(auxCol, auxRow);
+                Console.WriteLine("*");
             }
         }
 

@@ -108,7 +108,7 @@
                             string[] results = new string[14];
                             for (int i = 0; i < results.Length; i++)
                             {
-                                Console.WriteLine("\tResult {0,10}: {1,2}", i, returnResult());
+                                Console.WriteLine("\tResult {0,2}: {1,2}", i, returnResult());
                             }
                             Console.WriteLine();
                             break;

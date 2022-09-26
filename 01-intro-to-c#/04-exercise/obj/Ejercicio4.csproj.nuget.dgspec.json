@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj": {}
+    "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj": {
+    "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj",
+        "projectUniqueName": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj",
         "projectName": "Ejercicio4",
-        "projectPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj",
+        "projectPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\Ejercicio4.csproj",
         "packagesPath": "C:\\Users\\Nuno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nuno\\Desktop\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\obj\\",
+        "outputPath": "C:\\Users\\Nuno\\Documents\\DAM\\2DAM\\Interfaces-Development\\01-intro-to-c#\\04-exercise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nuno\\AppData\\Roaming\\NuGet\\NuGet.Config",

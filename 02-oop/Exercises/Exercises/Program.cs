@@ -11,6 +11,7 @@ namespace Exercises
 
             Empleado emp = new Empleado("Jose Ramón", "López", 49, "53817232S", 25000, "617756500");
             Directivo d = new Directivo("Mauricio", "Colmenero", 53, "12345678A", "Hostelería", 50);
+            EmpleadoEspecial empE = new EmpleadoEspecial("Miguel", "Miguelez", 19, "53817232S");
 
             static void mostrarPasta(IPastaGansa iPG)
             {
@@ -18,7 +19,7 @@ namespace Exercises
                 try
                 {
                     double ben = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine(iPG.ganarPasta(50));
+                    Console.WriteLine("\tWin money: " + iPG.ganarPasta(ben));
                 }
                 catch (FormatException)
                 {
@@ -41,7 +42,9 @@ namespace Exercises
                     {
                         case 1:
                             d.showCamps();
+                            mostrarPasta(d);
                             Console.Write("\tHacienda: " + d.hacienda() + "\n");
+                            Console.WriteLine();
                             break;
 
                         case 2:
@@ -51,7 +54,9 @@ namespace Exercises
                             break;
 
                         case 3:
-
+                            empE.showCampsEmp(0);
+                            mostrarPasta(empE);
+                            Console.Write("\tHacienda: " + empE.hacienda() + "\n");
                             break;
 
                         case 4:
@@ -114,7 +119,10 @@ namespace Exercises
         {
             set
             {
-                dni = value.Substring(0, 8);
+                if (dni != null)
+                {
+                    dni = value.Substring(0, 8);
+                }
             }
 
             get
@@ -206,6 +214,7 @@ namespace Exercises
         private string numeroTelefono;
         public string NumeroTelefono
         {
+            set { numeroTelefono = value; }
             get { return "+34" + numeroTelefono; }
         }
 
@@ -257,10 +266,10 @@ namespace Exercises
         }
 
         public Empleado(string? nombre, string? apellidos, int edad, string? nif, double salary, string? phoneNumber)
-        : base(nombre, apellidos, edad, nif)
+        : base()
         {
-            Salario = salary;
-            this.numeroTelefono = phoneNumber;
+            this.Salario = salary;
+            this.NumeroTelefono = phoneNumber;
         }
 
         public Empleado()
@@ -271,9 +280,20 @@ namespace Exercises
 
     class Directivo : Persona, IPastaGansa
     {
-        public string nombreDepartamento;
-        public double porcentajeBeneficios;
         private double PastaGanada;
+        private string nombreDepartamento;
+        public string NombreDepartamento
+        {
+            set { nombreDepartamento = value; }
+            get { return nombreDepartamento; }
+        }
+
+        private double porcentajeBeneficios;
+        public double PorcentajeBeneficios
+        {
+            get { return porcentajeBeneficios; }
+        }
+
         private int numPersonas;
         public int NumPersonas
         {
@@ -281,15 +301,15 @@ namespace Exercises
             {
                 if (value <= 10)
                 {
-                    porcentajeBeneficios = 2;
+                    porcentajeBeneficios = 0.02;
                 }
                 else if (value <= 50)
                 {
-                    porcentajeBeneficios = 3.5;
+                    porcentajeBeneficios = 0.035;
                 }
                 else
                 {
-                    porcentajeBeneficios = 4;
+                    porcentajeBeneficios = 0.04;
                 }
                 numPersonas = value;
             }
@@ -300,13 +320,19 @@ namespace Exercises
             }
         }
 
-        public static Directivo operator --(Directivo directivo)
+
+        public Directivo(String nombre, String apellidos, int edad, String dni, String departamento, int personas)
+            : base(nombre, apellidos, edad, dni)
         {
-            if (directivo.porcentajeBeneficios > 1)
-            {
-                directivo.porcentajeBeneficios--;
-            }
-            return directivo;
+            this.NombreDepartamento = departamento;
+            this.NumPersonas = personas;
+        }
+        public void showCamps()
+        {
+            base.showCamps();
+            Console.WriteLine("\tName of the Departament: " + this.nombreDepartamento);
+            Console.WriteLine("\tBenefits: " + this.porcentajeBeneficios + "%");
+            Console.WriteLine("\tPeople Number: " + this.numPersonas);
         }
         public void introCamps()
         {
@@ -317,22 +343,23 @@ namespace Exercises
             this.numPersonas = Convert.ToInt32(Console.ReadLine());
         }
 
-        public void showCamps()
+        public static Directivo operator --(Directivo directivo)
         {
-            base.showCamps();
-            Console.WriteLine("\tName of the Departament: " + this.nombreDepartamento);
-            Console.WriteLine("\tBenefits: " + this.porcentajeBeneficios);
-            Console.WriteLine("\tPeople Number: " + this.numPersonas);
+            if (directivo.porcentajeBeneficios > 1)
+            {
+                directivo.porcentajeBeneficios--;
+            }
+            return directivo;
         }
-
-
         public override double hacienda()
         {
             return (PastaGanada * 30) / 100;
+            throw new NotImplementedException();
         }
+
         public double ganarPasta(double beneficiosTotales)
         {
-            double ganancias = (porcentajeBeneficios * beneficiosTotales) / 100;
+            double ganancias = (PorcentajeBeneficios * beneficiosTotales) / 100;
             if (beneficiosTotales < 0)
             {
                 Directivo d = this;
@@ -343,16 +370,17 @@ namespace Exercises
             return ganancias;
         }
 
-        public Directivo(string? nombre, string? apellidos, int edad, string? nif, string depName, int peoNumb)
-        : base(nombre, apellidos, edad, nif)
-        {
-            this.nombreDepartamento = depName;
-            this.numPersonas = peoNumb;
-        }
+        
     }
 
     class EmpleadoEspecial : Empleado, IPastaGansa
     {
+        public EmpleadoEspecial(String nombre, String apellidos, int edad, String dni)
+            : base()
+        {
+
+        }
+
         public double ganarPasta(double beneficiosTotales)
         {
             return (beneficiosTotales * 0.5) / 100;

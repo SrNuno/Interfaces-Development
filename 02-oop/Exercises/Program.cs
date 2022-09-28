@@ -8,7 +8,7 @@
             bool exit = false;
 
             Empleado emp = new Empleado("Jose Ramón", "López", 49, "34941879A", 25000, "617756500");
-            Directivo d = new Directivo("Mauricio", "Gómez", 53, "12345678C", "Hostelería", 50);
+            Directivo d = new Directivo("Juan", "Gómez", 53, "12345678C", "Hostelería", 50);
             EmpleadoEspecial empE = new EmpleadoEspecial("Miguel", "Miguelez", 19, "53817232S", 50000, "687642519");
 
             static void mostrarPasta(IPastaGansa iPG)
@@ -46,13 +46,13 @@
                             break;
 
                         case 2:
-                            emp.showCampsEmp();
+                            emp.showCamps();
                             Console.Write("\tHacienda: " + emp.hacienda() + "\n");
                             Console.WriteLine();
                             break;
 
                         case 3:
-                            empE.showCampsEmp();
+                            empE.showCamps();
                             mostrarPasta(empE);
                             Console.Write("\tHacienda: " + empE.hacienda() + "\n");
                             Console.WriteLine();
@@ -82,7 +82,7 @@
     abstract class Persona
     {
         private string nombre;
-        public string Nombre
+        public string Nombre //{ set; get; }
         {
             set { nombre = value; }
             get { return nombre; }
@@ -127,7 +127,7 @@
                 string[] letters = { "T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E" };
                 int calc = Convert.ToInt32(dni) % 23;
 
-                for (int i = 0; i < letters.Length; i++)
+             //   for (int i = 0; i < letters.Length; i++)
                 {
                     aux_letter = letters[calc];
                 }
@@ -214,7 +214,7 @@
             get { return "+34" + numeroTelefono; }
         }
 
-        public void showCampsEmp()
+        public void showCamps()
         {
             base.showCamps();
             Console.WriteLine("\tSalary: " + this.Salario);
@@ -297,15 +297,15 @@
             {
                 if (value <= 10)
                 {
-                    porcentajeBeneficios = 0.02;
+                    porcentajeBeneficios = 2;
                 }
                 else if (value <= 50)
                 {
-                    porcentajeBeneficios = 0.035;
+                    porcentajeBeneficios = 3.5;
                 }
                 else
                 {
-                    porcentajeBeneficios = 0.04;
+                    porcentajeBeneficios = 4;
                 }
                 numPersonas = value;
             }
@@ -350,7 +350,7 @@
         public override double hacienda()
         {
             return (PastaGanada * 30) / 100;
-            throw new NotImplementedException();
+           // throw new NotImplementedException();
         }
 
         public double ganarPasta(double beneficiosTotales)

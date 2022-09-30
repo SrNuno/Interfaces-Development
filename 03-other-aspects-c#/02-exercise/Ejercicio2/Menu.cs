@@ -135,15 +135,16 @@ namespace Ejercicio2
 
                         case 5:
                             aux = subMenu(false);
-                            mostrarNotasAsignatura(aux, k);
+                            mostrarNotasAsignatura(aux);
                             break;
 
                         case 6:
-
+                            aux = subMenu(true);
+                            mostrarNotaMinMax(aux);
                             break;
 
                         case 7:
-
+                            mostrarTabla(k, asig);
                             break;
 
                         case 8:
@@ -190,29 +191,53 @@ namespace Ejercicio2
             Console.WriteLine($"Notes by {nombres[indexAlum]}:");
             foreach (string asig in asignaturas)
             {
-                Console.Write($"{asig, -12}|");
+                Console.Write($"{asig,-12}|");
             }
             Console.WriteLine();
             for (int i = 0; i < aula.notas.GetLength(0); i++)
             {
-                Console.Write($"{aula[i, indexAlum], 12}|");
+                Console.Write($"{aula[i, indexAlum],12}|");
             }
             Console.WriteLine();
             Console.WriteLine();
         }
-        public void mostrarNotasAsignatura(int indexAsig, int k)
+        public void mostrarNotasAsignatura(int indexAsig)
         {
             Console.WriteLine($"Notes by {asig[indexAsig]}:");
             foreach (string alum in nombres)
             {
-                Console.Write($"{alum, -10}|");
+                Console.Write($"{alum,-10}|");
             }
             Console.WriteLine();
             for (int i = 0; i < aula.notas.GetLength(1); i++)
             {
-                Console.Write($"{aula[indexAsig, i], 10}|");
+                Console.Write($"{aula[indexAsig, i],10}|");
             }
             Console.WriteLine();
+            Console.WriteLine();
+        }
+        public void mostrarNotaMinMax(int indexAlum)
+        {
+            aula.minMaxAlumno(indexAlum, out int min, out int max);
+            Console.WriteLine($"{nombres[indexAlum]}, your note MIN is: {min} and your MAX is: {max}");
+        }
+        public void mostrarTabla(int indAlum, string[] asignaturas)
+        {
+            Console.Write("|           |");
+            foreach (string asig in asignaturas)
+            {
+                Console.Write($"{asig, -15}|");
+            }
+            Console.WriteLine();
+            for (int i = 0; i < aula.notas.GetLength(1); i++)
+            {
+                Console.Write($"|{nombres[i], -11}|");
+                for (int j = 0; j < aula.notas.GetLength(0); j++)
+                {
+                    Console.Write($"{aula[j, i], -15}|");
+                }
+                Console.WriteLine();
+            }
             Console.WriteLine();
         }
     }

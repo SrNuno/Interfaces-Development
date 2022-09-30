@@ -57,21 +57,21 @@ namespace Ejercicio2
         {
         }
 
-        void minMaxAlumno(int numAlumno, ref int min, ref int max)
+        public void minMaxAlumno(int numAlumno, out int min, out int max)
         {
-            int auxMin = 10;
-            int auxMax = 0;
+            min = 10;
+            max = -1;
 
-            for (int i = 0; i < notas.GetUpperBound(1); i++)
+            for (int i = 0; i < notas.GetUpperBound(0); i++)
             {
-                if (notas[numAlumno, i] < auxMin)
+                if (notas[i, numAlumno] < min)
                 {
-                    min = notas[numAlumno, i];
+                    min = notas[i, numAlumno];
                 }
 
-                if (notas[numAlumno, i] > auxMax)
+                if (notas[i, numAlumno] > max)
                 {
-                    max = notas[numAlumno, i];
+                    max = notas[i, numAlumno];
                 }
 
             }

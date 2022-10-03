@@ -33,24 +33,66 @@ namespace Ejercicio1
                             Console.Write("\tEnter IP: ");
                             ip = Console.ReadLine();
 
-                            Console.Write("\tEnter capacity RAM: ");
-                            ram = Convert.ToInt32(Console.ReadLine());
-
-                            if (validateIP(ip) == true && validateRAM(ram) == true)
+                            if (validateIP(ip))
                             {
-                                hashtable.Add(ip, ram);
+                                if (!hashtable.ContainsKey(ip))
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.WriteLine("\t----> IP valid");
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                }
+                                else
+                                {
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("\t----> IP already exists\n");
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                    break;
+                                }
                             }
-                            Console.WriteLine();
+                            else
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("\t----> IP invalid\n");
+                                Console.ForegroundColor = ConsoleColor.White;
+                                break;
+                            }
+
+                            Console.Write("\tEnter RAM: ");
+                            ram = Convert.ToInt32(Console.ReadLine());
+                            if (validateRAM(ram))
+                            {
+                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.WriteLine("\t----> RAM valid");
+                                Console.ForegroundColor = ConsoleColor.White;
+                            }
+                            else
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine("\t----> RAM invalid\n");
+                                Console.ForegroundColor = ConsoleColor.White;
+                                break;
+                            }
+
+                            hashtable.Add(ip, ram);
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine("----> DATA SAVED CORRECTLY <----\n");
+                            Console.ForegroundColor = ConsoleColor.White;
                             break;
 
                         case 2:
                             Console.Write("\tEnter IP to delete: ");
                             ip = Console.ReadLine();
 
-                            if (hashtable.ContainsKey(ip))
+                            if (!hashtable.ContainsKey(ip))
+                            {
+                                Console.WriteLine("\t---> There isn't value about this IP");
+                            }
+                            else
                             {
                                 hashtable.Remove(ip);
+                                Console.WriteLine("\t---> Data delete correctly");
                             }
+
                             Console.WriteLine();
                             break;
 
@@ -82,29 +124,32 @@ namespace Ejercicio1
                 {
                     Console.WriteLine("\tError, you have entered a letter or another character distinct the number");
                 }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("\tRange exceeded");
+                }
             }
         }
 
         static bool validateIP(string ip)
         {
             string[] aux = ip.Split('.');
-            for (int i = 0; i < aux.Length; i++)
+            if (aux.Length == 4)
             {
-                if (Convert.ToInt32(aux[i]) < 0 || Convert.ToInt32(aux[i]) >= 256)
+                for (int i = 0; i < aux.Length; i++)
                 {
-                    return false;
+                    if (Convert.ToInt32(aux[i]) > 0 && Convert.ToInt32(aux[i]) < 256)
+                    {
+                        return true;
+                    }
                 }
             }
-            return true;
+            return false;
         }
 
         static bool validateRAM(int ram)
         {
-            if (ram > 0)
-            {
-                return true;
-            }
-            return false;
+            return ram > 0;
         }
     }
 }

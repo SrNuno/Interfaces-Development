@@ -37,13 +37,13 @@ namespace Ejercicio1
                             {
                                 if (!hashtable.ContainsKey(ip))
                                 {
-                                    Console.ForegroundColor = ConsoleColor.Green;
+                                    Console.ForegroundColor = ConsoleColor.DarkGreen;
                                     Console.WriteLine("\t----> IP valid");
                                     Console.ForegroundColor = ConsoleColor.White;
                                 }
                                 else
                                 {
-                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.ForegroundColor = ConsoleColor.DarkRed;
                                     Console.WriteLine("\t----> IP already exists\n");
                                     Console.ForegroundColor = ConsoleColor.White;
                                     break;
@@ -51,7 +51,7 @@ namespace Ejercicio1
                             }
                             else
                             {
-                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.WriteLine("\t----> IP invalid\n");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 break;
@@ -61,20 +61,20 @@ namespace Ejercicio1
                             ram = Convert.ToInt32(Console.ReadLine());
                             if (validateRAM(ram))
                             {
-                                Console.ForegroundColor = ConsoleColor.Green;
+                                Console.ForegroundColor = ConsoleColor.DarkGreen;
                                 Console.WriteLine("\t----> RAM valid");
                                 Console.ForegroundColor = ConsoleColor.White;
                             }
                             else
                             {
-                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.WriteLine("\t----> RAM invalid\n");
                                 Console.ForegroundColor = ConsoleColor.White;
                                 break;
                             }
 
                             hashtable.Add(ip, ram);
-                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
                             Console.WriteLine("----> DATA SAVED CORRECTLY <----\n");
                             Console.ForegroundColor = ConsoleColor.White;
                             break;
@@ -85,29 +85,66 @@ namespace Ejercicio1
 
                             if (!hashtable.ContainsKey(ip))
                             {
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
                                 Console.WriteLine("\t---> There isn't value about this IP");
+                                Console.ForegroundColor = ConsoleColor.White;
                             }
                             else
                             {
                                 hashtable.Remove(ip);
+                                Console.ForegroundColor = ConsoleColor.DarkGreen;
                                 Console.WriteLine("\t---> Data delete correctly");
+                                Console.ForegroundColor = ConsoleColor.White;
                             }
 
                             Console.WriteLine();
                             break;
 
                         case 3:
-                            foreach (DictionaryEntry de in hashtable)
+                            if (hashtable.Count == 0)
                             {
-                                Console.WriteLine("\t{0} -> {1}GB", de.Key, de.Value);
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.WriteLine("\t----> Empty table\n");
+                                Console.ForegroundColor = ConsoleColor.White;
                             }
-                            Console.WriteLine();
+                            else
+                            {
+                                foreach (DictionaryEntry de in hashtable)
+                                {
+                                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                                    Console.WriteLine("\t----> {0} - {1}GB", de.Key, de.Value);
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                }
+                                Console.WriteLine();
+                            }
+
                             break;
 
                         case 4:
                             Console.Write("\tEnter IP to show specific: ");
                             ip = Console.ReadLine();
-                            Console.WriteLine($"\t{ip}, your RAM is {hashtable[ip]}");
+
+                            if (!validateIP(ip))
+                            {
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.WriteLine("\t----> IP invalid");
+                                Console.ForegroundColor = ConsoleColor.White;
+                            }
+                            else
+                            {
+                                if (hashtable.Contains(ip))
+                                {
+                                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                                    Console.WriteLine($"\t---> {ip}, your RAM is {hashtable[ip]}");
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                }
+                                else
+                                {
+                                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                                    Console.WriteLine("\t----> This IP no exists in this table");
+                                    Console.ForegroundColor = ConsoleColor.White;
+                                }
+                            }
                             Console.WriteLine();
                             break;
 
@@ -116,13 +153,13 @@ namespace Ejercicio1
                             break;
 
                         default:
-                            Console.WriteLine("\tOption invalid");
+                            Console.WriteLine("\tOption invalid\n");
                             break;
                     }
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("\tError, you have entered a letter or another character distinct the number");
+                    Console.WriteLine("\tError, you have entered a letter or another character distinct the number\n");
                 }
                 catch (OverflowException)
                 {
@@ -138,13 +175,13 @@ namespace Ejercicio1
             {
                 for (int i = 0; i < aux.Length; i++)
                 {
-                    if (Convert.ToInt32(aux[i]) > 0 && Convert.ToInt32(aux[i]) < 256)
+                    if (Convert.ToInt32(aux[i]) <= 0 || Convert.ToInt32(aux[i]) >= 256)
                     {
-                        return true;
+                        return false;
                     }
                 }
             }
-            return false;
+            return true;
         }
 
         static bool validateRAM(int ram)

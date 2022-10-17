@@ -160,6 +160,9 @@ namespace Ejercicio2
                 catch (FormatException)
                 {
                     Console.WriteLine("\tSorry, enter a option number no a letter\n");
+                } catch (OverflowException)
+                {
+                    Console.WriteLine("\tRange excedeed\n");
                 }
             }
 

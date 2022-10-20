@@ -67,10 +67,10 @@ namespace Ejercicio2
                 switch (tecla.Key)
                 {
                     case ConsoleKey.DownArrow:
-                        opcion = opcion < opt.Length - 1 ? opcion + 1 : opcion;
+                        opcion <= opt.Length - 1 ? opcion++ : opcion;
                         break;
                     case ConsoleKey.UpArrow:
-                        opcion = opcion > 0 ? opcion - 1 : opcion;
+                        opcion => 0 ? opcion - 1 : opcion;
                         break;
                     case ConsoleKey.Enter:
                         seleccion = opcion;

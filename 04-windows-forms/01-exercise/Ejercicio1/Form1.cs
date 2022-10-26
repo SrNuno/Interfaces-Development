@@ -99,7 +99,7 @@ namespace Ejercicio1
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("¿Seguro que desea salir?", "Mi Aplicación",
-                MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 e.Cancel = true;
             }

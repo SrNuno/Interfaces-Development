@@ -14,7 +14,7 @@ namespace Ejercicio1
 {
     public partial class Form1 : Form
     {
-        const string text = "Form1";
+        const string text = "Mouse Tester";
         Color colorDefault = Button.DefaultBackColor;
         public Form1()
         {
@@ -71,31 +71,23 @@ namespace Ejercicio1
             }
         }
 
-#if !DIR
+
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
+#if DIR
+            this.Text = e.KeyCode.ToString();
             if (e.KeyCode == Keys.Escape)
             {
                 this.Text = text;
             }
-            else
-            {
-                this.Text = e.KeyCode.ToString();
-            }
-        }
-#else
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Escape)
-            {
-                this.Text = text;
-            }
-            else
-            {
-                this.Text = e.KeyValue.ToString();
-            }
-        }
 #endif
+        }
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+#if !DIR
+            this.Text = e.KeyChar.ToString();
+#endif
+        }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("¿Seguro que desea salir?", "Mi Aplicación",
@@ -104,5 +96,6 @@ namespace Ejercicio1
                 e.Cancel = true;
             }
         }
+
     }
 }

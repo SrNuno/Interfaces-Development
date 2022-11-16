@@ -43,14 +43,17 @@ namespace Ejercicio1
             {
                 button1.BackColor = Color.Yellow;
             }
-            else if (e.Button == MouseButtons.Right)
-            {
-                button2.BackColor = Color.Blue;
-            }
             else
             {
-                button1.BackColor = Color.Green;
-                button2.BackColor = Color.Red;
+                if (e.Button == MouseButtons.Right)
+                {
+                    button2.BackColor = Color.Blue;
+                }
+                else
+                {
+                    button1.BackColor = Color.Green;
+                    button2.BackColor = Color.Red;
+                }
             }
         }
 

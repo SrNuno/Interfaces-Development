@@ -3,14 +3,14 @@
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        /// Variable del diseñador necesaria.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Limpiar los recursos que se estén usando.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,142 +20,155 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.buttonAdd = new System.Windows.Forms.Button();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.buttonRemove = new System.Windows.Forms.Button();
-            this.buttonMove = new System.Windows.Forms.Button();
-            this.buttonMoveAll = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.buttonAdd = new System.Windows.Forms.Button();
+            this.buttonRemove = new System.Windows.Forms.Button();
+            this.buttonTraspLeftRight = new System.Windows.Forms.Button();
+            this.buttonTraspRightLeft = new System.Windows.Forms.Button();
             this.labelCantLB1 = new System.Windows.Forms.Label();
             this.labelCantLB2 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 57);
-            this.listBox1.MultiColumn = true;
-            this.listBox1.Name = "listBox1";
-            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.listBox1.Size = new System.Drawing.Size(150, 173);
-            this.listBox1.TabIndex = 5;
-            // 
-            // buttonAdd
-            // 
-            this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAdd.Location = new System.Drawing.Point(168, 57);
-            this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(128, 40);
-            this.buttonAdd.TabIndex = 1;
-            this.buttonAdd.Text = "Add";
-            this.buttonAdd.UseVisualStyleBackColor = true;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(302, 57);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(150, 173);
-            this.listBox2.TabIndex = 6;
-            // 
-            // buttonRemove
-            // 
-            this.buttonRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRemove.Location = new System.Drawing.Point(168, 103);
-            this.buttonRemove.Name = "buttonRemove";
-            this.buttonRemove.Size = new System.Drawing.Size(128, 39);
-            this.buttonRemove.TabIndex = 2;
-            this.buttonRemove.Text = "Remove";
-            this.buttonRemove.UseVisualStyleBackColor = true;
-            this.buttonRemove.Click += new System.EventHandler(this.buttonRemove_Click);
-            // 
-            // buttonMove
-            // 
-            this.buttonMove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMove.Location = new System.Drawing.Point(167, 148);
-            this.buttonMove.Name = "buttonMove";
-            this.buttonMove.Size = new System.Drawing.Size(129, 39);
-            this.buttonMove.TabIndex = 3;
-            this.buttonMove.Text = ">";
-            this.buttonMove.UseVisualStyleBackColor = true;
-            // 
-            // buttonMoveAll
-            // 
-            this.buttonMoveAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMoveAll.Location = new System.Drawing.Point(168, 193);
-            this.buttonMoveAll.Name = "buttonMoveAll";
-            this.buttonMoveAll.Size = new System.Drawing.Size(128, 38);
-            this.buttonMoveAll.TabIndex = 4;
-            this.buttonMoveAll.Text = ">>";
-            this.buttonMoveAll.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(440, 26);
-            this.textBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(9, 4);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 18);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Enter text:";
+            this.label1.Size = new System.Drawing.Size(67, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Enter option:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 25);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(552, 20);
+            this.textBox1.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.textBox1, "Enter option to add list left");
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(12, 51);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.listBox1.Size = new System.Drawing.Size(172, 173);
+            this.listBox1.TabIndex = 2;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBox1.Enter += new System.EventHandler(this.listBox1_Enter);
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.Location = new System.Drawing.Point(392, 51);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(172, 173);
+            this.listBox2.TabIndex = 3;
+            this.listBox2.Enter += new System.EventHandler(this.listBox2_Enter);
+            // 
+            // buttonAdd
+            // 
+            this.buttonAdd.Location = new System.Drawing.Point(190, 51);
+            this.buttonAdd.Name = "buttonAdd";
+            this.buttonAdd.Size = new System.Drawing.Size(196, 39);
+            this.buttonAdd.TabIndex = 4;
+            this.buttonAdd.Text = "Add";
+            this.toolTip1.SetToolTip(this.buttonAdd, "Add text to list left");
+            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
+            // 
+            // buttonRemove
+            // 
+            this.buttonRemove.Location = new System.Drawing.Point(190, 96);
+            this.buttonRemove.Name = "buttonRemove";
+            this.buttonRemove.Size = new System.Drawing.Size(196, 39);
+            this.buttonRemove.TabIndex = 5;
+            this.buttonRemove.Text = "Remove";
+            this.toolTip1.SetToolTip(this.buttonRemove, "Remove selected option from left list\r\n");
+            this.buttonRemove.UseVisualStyleBackColor = true;
+            this.buttonRemove.Click += new System.EventHandler(this.buttonRemove_Click);
+            // 
+            // buttonTraspLeftRight
+            // 
+            this.buttonTraspLeftRight.Location = new System.Drawing.Point(190, 140);
+            this.buttonTraspLeftRight.Name = "buttonTraspLeftRight";
+            this.buttonTraspLeftRight.Size = new System.Drawing.Size(196, 39);
+            this.buttonTraspLeftRight.TabIndex = 6;
+            this.buttonTraspLeftRight.Text = ">";
+            this.toolTip1.SetToolTip(this.buttonTraspLeftRight, "Move option selected from left to right");
+            this.buttonTraspLeftRight.UseVisualStyleBackColor = true;
+            this.buttonTraspLeftRight.Click += new System.EventHandler(this.buttonTraspLeftRight_Click);
+            // 
+            // buttonTraspRightLeft
+            // 
+            this.buttonTraspRightLeft.Location = new System.Drawing.Point(190, 185);
+            this.buttonTraspRightLeft.Name = "buttonTraspRightLeft";
+            this.buttonTraspRightLeft.Size = new System.Drawing.Size(196, 39);
+            this.buttonTraspRightLeft.TabIndex = 7;
+            this.buttonTraspRightLeft.Text = "<";
+            this.toolTip1.SetToolTip(this.buttonTraspRightLeft, "Move option selected from right to left\r\n");
+            this.buttonTraspRightLeft.UseVisualStyleBackColor = true;
+            this.buttonTraspRightLeft.Click += new System.EventHandler(this.buttonTraspRightLeft_Click);
             // 
             // labelCantLB1
             // 
             this.labelCantLB1.AutoSize = true;
-            this.labelCantLB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCantLB1.Location = new System.Drawing.Point(9, 233);
+            this.labelCantLB1.Location = new System.Drawing.Point(12, 227);
             this.labelCantLB1.Name = "labelCantLB1";
-            this.labelCantLB1.Size = new System.Drawing.Size(64, 18);
+            this.labelCantLB1.Size = new System.Drawing.Size(47, 13);
             this.labelCantLB1.TabIndex = 8;
             this.labelCantLB1.Text = "Count: 0";
+            this.toolTip1.SetToolTip(this.labelCantLB1, "Counter of all options to list left\r\n");
             // 
             // labelCantLB2
             // 
             this.labelCantLB2.AutoSize = true;
-            this.labelCantLB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCantLB2.Location = new System.Drawing.Point(299, 233);
+            this.labelCantLB2.Location = new System.Drawing.Point(392, 227);
             this.labelCantLB2.Name = "labelCantLB2";
-            this.labelCantLB2.Size = new System.Drawing.Size(64, 18);
+            this.labelCantLB2.Size = new System.Drawing.Size(65, 13);
             this.labelCantLB2.TabIndex = 9;
-            this.labelCantLB2.Text = "Count: 0";
+            this.labelCantLB2.Text = "Index: None";
+            this.toolTip1.SetToolTip(this.labelCantLB2, "Shows the selected indices from the list on the left");
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 200;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
             this.AcceptButton = this.buttonAdd;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 257);
+            this.ClientSize = new System.Drawing.Size(576, 253);
             this.Controls.Add(this.labelCantLB2);
             this.Controls.Add(this.labelCantLB1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.buttonMoveAll);
-            this.Controls.Add(this.buttonMove);
+            this.Controls.Add(this.buttonTraspRightLeft);
+            this.Controls.Add(this.buttonTraspLeftRight);
             this.Controls.Add(this.buttonRemove);
-            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.buttonAdd);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " ListBox Test";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,16 +176,18 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Button buttonRemove;
-        private System.Windows.Forms.Button buttonMove;
-        private System.Windows.Forms.Button buttonMoveAll;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.Button buttonAdd;
+        private System.Windows.Forms.Button buttonRemove;
+        private System.Windows.Forms.Button buttonTraspLeftRight;
+        private System.Windows.Forms.Button buttonTraspRightLeft;
         private System.Windows.Forms.Label labelCantLB1;
         private System.Windows.Forms.Label labelCantLB2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

@@ -1,0 +1,22 @@
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\bin\Debug\Ejercicio4.exe
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\bin\Debug\Ejercicio4.pdb
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.AssemblyReference.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.Form1.resources
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.Properties.Resources.resources
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.GenerateResource.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.exe
+C:\Users\Nuno\Documents\DAM\2DAM\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.pdb
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\bin\Debug\Ejercicio4.exe.config
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\bin\Debug\Ejercicio4.exe
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\bin\Debug\Ejercicio4.pdb
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.AssemblyReference.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.Form1.resources
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.Properties.Resources.resources
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.GenerateResource.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.exe
+G:\Mi unidad\Interfaces-Development\04-windows-forms\04-exercise\Ejercicio4\obj\Debug\Ejercicio4.pdb

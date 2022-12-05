@@ -1,0 +1,32 @@
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\bol1\Ejercicio2\Ejercicio2\obj\Debug\Ejercicio2.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface Development\C#_Boletines\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.pdb
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.AssemblyReference.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.exe
+C:\Users\Nuno\Desktop\DAM\2DAM\Interface-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.pdb
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.exe.config
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.exe
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\bin\Debug\Ejercicio2.pdb
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.AssemblyReference.cache
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.exe
+G:\Mi unidad\Interfaces-Development\01-intro-to-c#\02-exercise\Ejercicio2\obj\Debug\Ejercicio2.pdb

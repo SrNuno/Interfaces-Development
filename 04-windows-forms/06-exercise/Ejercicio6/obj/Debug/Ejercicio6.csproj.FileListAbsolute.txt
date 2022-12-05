@@ -1,0 +1,12 @@
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\bin\Debug\Ejercicio6.exe.config
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\bin\Debug\Ejercicio6.exe
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\bin\Debug\Ejercicio6.pdb
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.csproj.AssemblyReference.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.Properties.Resources.resources
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.csproj.GenerateResource.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.exe
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.pdb
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.Form1.resources
+G:\Mi unidad\Interfaces-Development\04-windows-forms\06-exercise\Ejercicio6\obj\Debug\Ejercicio6.Form2.resources

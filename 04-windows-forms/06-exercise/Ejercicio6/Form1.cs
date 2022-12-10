@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -154,31 +155,27 @@ namespace Ejercicio6
 
         private void grabarNúmeroToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            StreamWriter s;
             if (textBox1.Text != string.Empty)
             {
                 saveFileDialog1.ShowDialog();
-                StreamWriter s;
-                s = new StreamWriter(this.saveFileDialog1.FileName);
-                s.Write(textBox1.Text);
-                s.Close();
+                try
+                {
+                    using (s = new StreamWriter(this.saveFileDialog1.FileName, true))
+                    {
+                        s.WriteLine(textBox1.Text);
+                    }
+                }
+                catch (ArgumentException)
+                {
+                    Debug.WriteLine("Filename neve empty");
+                }
             }
         }
 
         private void acercaDe_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Miguel Miguelez Cazapal", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void resetToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            textBox1.Text = "";
-            foreach (Control item in this.Controls)
-            {
-                if (item.GetType() == typeof(Button))
-                {
-                    item.BackColor = colorDefecto;
-                }
-            }
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)

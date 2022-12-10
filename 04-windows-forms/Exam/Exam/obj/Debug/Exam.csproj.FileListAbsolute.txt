@@ -1,0 +1,11 @@
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\bin\Debug\Exam.exe.config
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\bin\Debug\Exam.exe
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\bin\Debug\Exam.pdb
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.csproj.AssemblyReference.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.Form1.resources
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.Properties.Resources.resources
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.csproj.GenerateResource.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.exe
+G:\Mi unidad\Interfaces-Development\04-windows-forms\Exam\Exam\obj\Debug\Exam.pdb

@@ -117,17 +117,15 @@ namespace Ejercicio5
             }
             return false;
         }
+
         private void removeOptions()
         {
-            if (listBox1.SelectedIndices.Count != 0)
+            while (listBox1.SelectedIndices.Count > 0)
             {
-                while (listBox1.SelectedIndices.Count > 0)
-                {
-                    listBox1.Items.Remove(listBox1.SelectedItem);
-
-                }
+                listBox1.Items.Remove(listBox1.SelectedItem);
             }
         }
+
         private void traspLeftRight()
         {
             if (listBox1.SelectedIndices.Count != 0)

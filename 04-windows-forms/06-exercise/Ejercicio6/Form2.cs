@@ -21,11 +21,6 @@ namespace Ejercicio6
             InitializeComponent();
         }
 
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            e.Cancel = false;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == pin && textBox1.Text.Length == 4)

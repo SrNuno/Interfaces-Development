@@ -45,7 +45,7 @@ namespace Ejercicio7
             }
             catch (FileNotFoundException)
             {
-                MessageBox.Show("Create a file \"nombres.txt\" with names students in user directory", "File not exists", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Create a file \"nombres.txt\" with names students in {Environment.GetEnvironmentVariable("%userprofile%")}", "File not exists", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.Exit(0);
             }
             classroom = new Aula(students);

@@ -90,7 +90,6 @@ namespace Ejercicio5
             {
                 this.Icon = icon2;
             }
-
         }
 
         private void listBox1_Enter(object sender, EventArgs e)
@@ -128,24 +127,19 @@ namespace Ejercicio5
 
         private void traspLeftRight()
         {
-            if (listBox1.SelectedIndices.Count != 0)
+            while (listBox1.SelectedIndices.Count > 0)
             {
-                while (listBox1.SelectedIndices.Count > 0)
-                {
-                    listBox2.Items.Add(listBox1.SelectedItem);
-                    listBox1.Items.Remove(listBox1.SelectedItem);
-                }
+                listBox2.Items.Add(listBox1.SelectedItem);
+                listBox1.Items.Remove(listBox1.SelectedItem);
+
             }
         }
         private void traspRightLeft()
         {
-            if (listBox2.SelectedIndices.Count != 0)
+            while (listBox2.SelectedIndices.Count > 0)
             {
-                while (listBox2.SelectedIndices.Count > 0)
-                {
-                    listBox1.Items.Add(listBox2.SelectedItem);
-                    listBox2.Items.Remove(listBox2.SelectedItem);
-                }
+                listBox1.Items.Add(listBox2.SelectedItem);
+                listBox2.Items.Remove(listBox2.SelectedItem);
             }
         }
 

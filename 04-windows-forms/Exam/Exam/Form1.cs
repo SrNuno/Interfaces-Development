@@ -60,9 +60,10 @@ namespace Exam
                 valores = new TextBox();
                 valores.Text = 0.ToString();
                 valores.Location = new Point(x, y);
+                //valores.BackColor = Color.Empty;
                 valores.Size = new Size(60, 20);
-                //valores.Enter += new System.EventHandler(this.textEnter);
-                //valores.Leave += new System.EventHandler(this.textLeave);
+                valores.Enter += new System.EventHandler(this.textEnter);
+                valores.Leave += new System.EventHandler(this.textLeave);
                 guardaValores[i] = valores;
                 x += valores.Width + 20;
                 if ((i + 1) % 7 == 0)
@@ -79,6 +80,7 @@ namespace Exam
             creacionTabla();
             panel1.Enabled = true;
             poblacionesToolStripMenuItem.Enabled = true;
+            nuevaToolStripMenuItem.Enabled = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -127,6 +129,22 @@ namespace Exam
             if (MessageBox.Show("¿Do you want exit without saving changes?", "Exit", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
             {
                 e.Cancel = true;
+            }
+        }
+
+        private void textEnter(object sender, EventArgs e)
+        {
+            if (!((TextBox)sender).Focused)
+            {
+                ((TextBox)sender).BackColor = Color.LightCyan;
+            }
+        }
+
+        private void textLeave(object sender, EventArgs e)
+        {
+            if (((TextBox)sender).Focused)
+            {
+                ((TextBox)sender).BackColor = Color.Empty;
             }
         }
 

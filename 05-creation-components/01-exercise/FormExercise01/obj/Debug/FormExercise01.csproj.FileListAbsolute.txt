@@ -1,0 +1,14 @@
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\bin\Debug\FormExercise01.exe.config
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\bin\Debug\FormExercise01.exe
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\bin\Debug\FormExercise01.pdb
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.csproj.AssemblyReference.cache
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.csproj.SuggestedBindingRedirects.cache
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.Properties.Resources.resources
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.csproj.GenerateResource.cache
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.csproj.CoreCompileInputs.cache
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.exe
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.pdb
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\bin\Debug\LibraryExercise01.dll
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\bin\Debug\LibraryExercise01.pdb
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.Form1.resources
+G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\FormExercise01\obj\Debug\FormExercise01.csproj.CopyComplete

@@ -30,8 +30,8 @@
         {
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
-            this.labelTextBox1 = new LibraryExercise01.LabelTextBox();
             this.etiquetaAviso1 = new LibraryExercise01.EtiquetaAviso();
+            this.labelTextBox1 = new LibraryExercise01.LabelTextBox();
             this.SuspendLayout();
             // 
             // btn1
@@ -54,6 +54,20 @@
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
+            // etiquetaAviso1
+            // 
+            this.etiquetaAviso1.Color = System.Drawing.Color.Empty;
+            this.etiquetaAviso1.ColorSecond = System.Drawing.Color.Empty;
+            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaAviso1.Gradient = true;
+            this.etiquetaAviso1.Image = null;
+            this.etiquetaAviso1.Location = new System.Drawing.Point(13, 69);
+            this.etiquetaAviso1.Marca = LibraryExercise01.EtiquetaAviso.eMarca.Imagen;
+            this.etiquetaAviso1.Name = "etiquetaAviso1";
+            this.etiquetaAviso1.Size = new System.Drawing.Size(340, 60);
+            this.etiquetaAviso1.TabIndex = 4;
+            this.etiquetaAviso1.Text = "etiquetaAviso1";
+            // 
             // labelTextBox1
             // 
             this.labelTextBox1.Location = new System.Drawing.Point(13, 13);
@@ -68,25 +82,11 @@
             this.labelTextBox1.TxtChanged += new System.EventHandler(this.labelTextBox1_TxtChanged);
             this.labelTextBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.labelTextBox1_KeyUp);
             // 
-            // etiquetaAviso1
-            // 
-            this.etiquetaAviso1.Color = System.Drawing.Color.DodgerBlue;
-            this.etiquetaAviso1.ColorSecond = System.Drawing.Color.Red;
-            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.etiquetaAviso1.ForeColor = System.Drawing.Color.White;
-            this.etiquetaAviso1.Gradient = true;
-            this.etiquetaAviso1.Location = new System.Drawing.Point(13, 68);
-            this.etiquetaAviso1.Marca = LibraryExercise01.EtiquetaAviso.eMarca.Nada;
-            this.etiquetaAviso1.Name = "etiquetaAviso1";
-            this.etiquetaAviso1.Size = new System.Drawing.Size(454, 80);
-            this.etiquetaAviso1.TabIndex = 4;
-            this.etiquetaAviso1.Text = "etiquetaAviso1";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 160);
+            this.ClientSize = new System.Drawing.Size(842, 319);
             this.Controls.Add(this.etiquetaAviso1);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.labelTextBox1);

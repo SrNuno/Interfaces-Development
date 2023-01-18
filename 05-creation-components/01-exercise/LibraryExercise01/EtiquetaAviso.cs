@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace LibraryExercise01
 {
     public partial class EtiquetaAviso : Control
     {
+        int offsetX = 0;
         public EtiquetaAviso()
         {
             InitializeComponent();
@@ -27,20 +29,11 @@ namespace LibraryExercise01
             {
                 pe.Graphics.FillRectangle(lgb, new Rectangle(0, 0, this.Width, this.Height));
             }
-            int grosor = 0; //Grosor de las líneas de dibujo
-            int offsetX = 0; //Desplazamiento a la derecha del texto
-            int offsetY = 0; //Desplazamiento hacia abajo del texto
-            if (Gradient)
-            {
+            int grosor = 0;
+            int offsetY = 0;
 
-            }
-            // Altura de fuente, usada como referencia en varias partes
             int h = this.Font.Height;
-            //Esta propiedad provoca mejoras en la apariencia o en la eficiencia 
-            // a la hora de dibujar
             g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
-            //Dependiendo del valor de la propiedad marca dibujamos una
-            //Cruz o un Círculo
             switch (Marca)
             {
                 case eMarca.Circulo:
@@ -50,6 +43,7 @@ namespace LibraryExercise01
                     offsetX = h + grosor;
                     offsetY = grosor;
                     break;
+
                 case eMarca.Cruz:
                     grosor = 3;
                     Pen lapiz = new Pen(Color.Red, grosor);
@@ -57,14 +51,19 @@ namespace LibraryExercise01
                     g.DrawLine(lapiz, h, grosor, grosor, h);
                     offsetX = h + grosor;
                     offsetY = grosor / 2;
-                    //Es recomendable liberar recursos de dibujo pues se 
-                    //pueden realizar muchos y cogen memoria
                     lapiz.Dispose();
                     break;
+
+                case eMarca.Imagen:
+                    if (Image != null)
+                    {
+                        g.DrawImage(Image, 0, 0, h, h);
+                    }
+                    break;
             }
-            //Finalmente pintamos el Texto; desplazado si fuera necesario
             SolidBrush b = new SolidBrush(this.ForeColor);
             g.DrawString(this.Text, this.Font, b, offsetX + grosor, offsetY);
+            g.DrawString(this.Text, this.Font, b, )
             Size tam = g.MeasureString(this.Text, this.Font).ToSize();
             this.Size = new Size(tam.Width + offsetX + grosor, tam.Height + offsetY * 2);
             b.Dispose();
@@ -80,7 +79,8 @@ namespace LibraryExercise01
         {
             Nada,
             Cruz,
-            Circulo
+            Circulo,
+            Imagen
         }
 
         private eMarca marca = eMarca.Nada;
@@ -146,6 +146,33 @@ namespace LibraryExercise01
             get
             {
                 return gradient;
+            }
+        }
+
+        private Image image;
+        [Category("Appearance")]
+        [Description("Indica la imagen que se utilizará")]
+        public Image Image
+        {
+            set
+            {
+                image = value;
+                this.Refresh();
+            }
+            get { return image; }
+        }
+
+        [Category("Miguel")]
+        [Description("Se lanza cuando se hace click en la marca")]
+        public event System.EventHandler ClickEnMarca;
+
+
+        protected override void OnMouseClick(MouseEventArgs e)
+        {
+            base.OnMouseClick(e);
+            if (e.Location.X < offsetX)
+            {
+
             }
         }
     }

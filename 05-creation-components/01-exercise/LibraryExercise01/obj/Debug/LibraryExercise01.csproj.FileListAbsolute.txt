@@ -1,8 +1,0 @@
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\bin\Debug\LibraryExercise01.dll
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\bin\Debug\LibraryExercise01.pdb
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\obj\Debug\LibraryExercise01.csproj.AssemblyReference.cache
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\obj\Debug\LibraryExercise01.LabelTextBox.resources
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\obj\Debug\LibraryExercise01.csproj.GenerateResource.cache
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\obj\Debug\LibraryExercise01.csproj.CoreCompileInputs.cache
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\obj\Debug\LibraryExercise01.dll
-G:\Mi unidad\Interfaces-Development\05-creation-components\01-exercise\LibraryExercise01\obj\Debug\LibraryExercise01.pdb

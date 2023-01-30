@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ControlLibrary"
+    "\\ControlLibrary",
+    "\\Exercise01_02",
+    "\\Exercise03"
   ],
-  "SelectedNode": "\\ControlLibrary\\LabelTextBox.cs",
+  "SelectedNode": "\\Exercise03\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

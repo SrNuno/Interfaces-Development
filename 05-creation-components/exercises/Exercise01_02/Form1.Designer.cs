@@ -71,13 +71,13 @@
             // 
             this.etiquetaAviso1.Color = System.Drawing.Color.Empty;
             this.etiquetaAviso1.ColorSecond = System.Drawing.Color.Empty;
-            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 44F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.etiquetaAviso1.Gradient = true;
-            this.etiquetaAviso1.Image = null;
+            this.etiquetaAviso1.Image = global::Exercise01_02.Properties.Resources.ball;
             this.etiquetaAviso1.Location = new System.Drawing.Point(13, 91);
-            this.etiquetaAviso1.Marca = ControlLibrary.EtiquetaAviso.eMarca.Nada;
+            this.etiquetaAviso1.Marca = ControlLibrary.EtiquetaAviso.eMarca.Imagen;
             this.etiquetaAviso1.Name = "etiquetaAviso1";
-            this.etiquetaAviso1.Size = new System.Drawing.Size(205, 36);
+            this.etiquetaAviso1.Size = new System.Drawing.Size(483, 207);
             this.etiquetaAviso1.TabIndex = 3;
             this.etiquetaAviso1.Text = "etiquetaAviso1";
             // 

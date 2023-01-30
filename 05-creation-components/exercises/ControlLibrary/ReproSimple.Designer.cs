@@ -35,7 +35,7 @@
             // btn
             // 
             this.btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn.Location = new System.Drawing.Point(3, 283);
+            this.btn.Location = new System.Drawing.Point(3, 3);
             this.btn.Name = "btn";
             this.btn.Size = new System.Drawing.Size(60, 60);
             this.btn.TabIndex = 0;
@@ -47,11 +47,11 @@
             // 
             this.lbl.AutoSize = true;
             this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl.Location = new System.Drawing.Point(303, 325);
+            this.lbl.Location = new System.Drawing.Point(304, 45);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(44, 18);
+            this.lbl.Size = new System.Drawing.Size(43, 18);
             this.lbl.TabIndex = 1;
-            this.lbl.Text = "00:00";
+            this.lbl.Text = "Label";
             // 
             // ReproSimple
             // 
@@ -60,7 +60,7 @@
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.btn);
             this.Name = "ReproSimple";
-            this.Size = new System.Drawing.Size(350, 346);
+            this.Size = new System.Drawing.Size(350, 68);
             this.ResumeLayout(false);
             this.PerformLayout();
 

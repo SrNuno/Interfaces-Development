@@ -19,7 +19,6 @@ namespace ControlLibrary
 
         private void btn_Click(object sender, EventArgs e)
         {
-            this.OnClick(e);
             if (btn.Text.Equals(">"))
             {
                 btn.Text = "||";
@@ -27,17 +26,6 @@ namespace ControlLibrary
             else
             {
                 btn.Text = ">";
-            }
-        }
-
-        [Category("Mouse")]
-        [Description("Se lanza cuando se clicka en el botón")]
-        public event System.EventHandler PlayClick;
-        protected override void OnClick(EventArgs e)
-        {
-            if (PlayClick != null)
-            {
-                PlayClick?.Invoke(this, e);
             }
         }
     }

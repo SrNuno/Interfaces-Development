@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.abrirDirectorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.reproSimple1 = new ControlLibrary.ReproSimple();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -59,11 +60,19 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // reproSimple1
+            // 
+            this.reproSimple1.Location = new System.Drawing.Point(13, 289);
+            this.reproSimple1.Name = "reproSimple1";
+            this.reproSimple1.Size = new System.Drawing.Size(350, 68);
+            this.reproSimple1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 368);
+            this.Controls.Add(this.reproSimple1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -81,6 +90,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem abrirDirectorioToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private ControlLibrary.ReproSimple reproSimple1;
     }
 }
 

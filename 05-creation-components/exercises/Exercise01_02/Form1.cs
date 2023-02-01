@@ -52,9 +52,9 @@ namespace Exercise01_02
             Debug.WriteLine("Se está escribiendo");
         }
 
-        private void etiquetaAviso1_ClickEnMarca(object sender, EventArgs e)
+        private void etiquetaAviso2_ClickEnMarca(object sender, EventArgs e)
         {
-            Debug.WriteLine("Como estas Curro");
+            Debug.Write("Hola");
         }
     }
 }

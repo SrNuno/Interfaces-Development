@@ -180,7 +180,6 @@ namespace ControlLibrary
         [Category("Miguel")]
         [Description("Se lanza cuando se hace click en la marca")]
         public event System.EventHandler ClickEnMarca;
-
         protected override void OnMouseClick(MouseEventArgs e)
         {
             base.OnMouseClick(e);

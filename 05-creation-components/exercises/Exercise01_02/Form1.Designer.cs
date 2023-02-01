@@ -31,7 +31,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.labelTextBox1 = new ControlLibrary.LabelTextBox();
-            this.etiquetaAviso1 = new ControlLibrary.EtiquetaAviso();
+            this.etiquetaAviso2 = new ControlLibrary.EtiquetaAviso();
             this.SuspendLayout();
             // 
             // button1
@@ -67,26 +67,27 @@
             this.labelTextBox1.SeparacionChanged += new System.EventHandler(this.labelTextBox1_SeparacionChanged);
             this.labelTextBox1.TxtChanged += new System.EventHandler(this.labelTextBox1_TxtChanged);
             // 
-            // etiquetaAviso1
+            // etiquetaAviso2
             // 
-            this.etiquetaAviso1.Color = System.Drawing.Color.Empty;
-            this.etiquetaAviso1.ColorSecond = System.Drawing.Color.Empty;
-            this.etiquetaAviso1.Font = new System.Drawing.Font("Microsoft Sans Serif", 44F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.etiquetaAviso1.Gradient = true;
-            this.etiquetaAviso1.Image = global::Exercise01_02.Properties.Resources.ball;
-            this.etiquetaAviso1.Location = new System.Drawing.Point(13, 91);
-            this.etiquetaAviso1.Marca = ControlLibrary.EtiquetaAviso.eMarca.Imagen;
-            this.etiquetaAviso1.Name = "etiquetaAviso1";
-            this.etiquetaAviso1.Size = new System.Drawing.Size(483, 207);
-            this.etiquetaAviso1.TabIndex = 3;
-            this.etiquetaAviso1.Text = "etiquetaAviso1";
+            this.etiquetaAviso2.Color = System.Drawing.Color.Empty;
+            this.etiquetaAviso2.ColorSecond = System.Drawing.Color.Empty;
+            this.etiquetaAviso2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.etiquetaAviso2.Gradient = true;
+            this.etiquetaAviso2.Image = global::Exercise01_02.Properties.Resources.ball;
+            this.etiquetaAviso2.Location = new System.Drawing.Point(12, 90);
+            this.etiquetaAviso2.Marca = ControlLibrary.EtiquetaAviso.eMarca.Imagen;
+            this.etiquetaAviso2.Name = "etiquetaAviso2";
+            this.etiquetaAviso2.Size = new System.Drawing.Size(288, 123);
+            this.etiquetaAviso2.TabIndex = 4;
+            this.etiquetaAviso2.Text = "etiquetaAviso2";
+            this.etiquetaAviso2.ClickEnMarca += new System.EventHandler(this.etiquetaAviso2_ClickEnMarca);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(643, 352);
-            this.Controls.Add(this.etiquetaAviso1);
+            this.Controls.Add(this.etiquetaAviso2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.labelTextBox1);
@@ -101,7 +102,7 @@
         private ControlLibrary.LabelTextBox labelTextBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private ControlLibrary.EtiquetaAviso etiquetaAviso1;
+        private ControlLibrary.EtiquetaAviso etiquetaAviso2;
     }
 }
 

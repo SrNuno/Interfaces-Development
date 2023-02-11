@@ -1,0 +1,14 @@
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\bin\Debug\Exercise04.exe.config
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\bin\Debug\Exercise04.exe
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\bin\Debug\Exercise04.pdb
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.csproj.AssemblyReference.cache
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.Properties.Resources.resources
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.csproj.GenerateResource.cache
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.csproj.CoreCompileInputs.cache
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.exe
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.pdb
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\bin\Debug\ControlLibrary.dll
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\bin\Debug\ControlLibrary.pdb
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.Form1.resources
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\Exercise04\obj\Debug\Exercise04.csproj.CopyComplete

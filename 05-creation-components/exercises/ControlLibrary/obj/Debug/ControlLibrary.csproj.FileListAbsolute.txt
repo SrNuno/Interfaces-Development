@@ -7,3 +7,4 @@ C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\
 C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\ControlLibrary\obj\Debug\ControlLibrary.LabelTextBox.resources
 C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\ControlLibrary\obj\Debug\ControlLibrary.csproj.GenerateResource.cache
 C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\ControlLibrary\obj\Debug\ControlLibrary.ReproSimple.resources
+C:\Users\Nuno\Documents\Interfaces-Development\05-creation-components\exercises\ControlLibrary\obj\Debug\ControlLibrary.Ahorcado.resources

@@ -31,7 +31,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.abrirDirectorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.reproSimple1 = new ControlLibrary.ReproSimple();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.reproSimple = new ControlLibrary.ReproSimple();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -42,7 +43,7 @@
             this.abrirDirectorioToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(376, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(458, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -51,28 +52,45 @@
             this.abrirDirectorioToolStripMenuItem.Name = "abrirDirectorioToolStripMenuItem";
             this.abrirDirectorioToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.abrirDirectorioToolStripMenuItem.Text = "Abrir Directorio";
+            this.abrirDirectorioToolStripMenuItem.Click += new System.EventHandler(this.abrirDirectorioToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 54);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 255);
+            this.pictureBox1.Size = new System.Drawing.Size(434, 311);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // reproSimple1
+            // comboBox1
             // 
-            this.reproSimple1.Location = new System.Drawing.Point(13, 289);
-            this.reproSimple1.Name = "reproSimple1";
-            this.reproSimple1.Size = new System.Drawing.Size(350, 68);
-            this.reproSimple1.TabIndex = 3;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(12, 27);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(434, 21);
+            this.comboBox1.TabIndex = 4;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // reproSimple
+            // 
+            this.reproSimple.IsPlay = true;
+            this.reproSimple.Location = new System.Drawing.Point(13, 376);
+            this.reproSimple.Minutes = 0;
+            this.reproSimple.Name = "reproSimple";
+            this.reproSimple.Seconds = 0;
+            this.reproSimple.Size = new System.Drawing.Size(433, 67);
+            this.reproSimple.TabIndex = 5;
+            this.reproSimple.PlayClick += new System.EventHandler(this.reproSimple_PlayClick);
+            this.reproSimple.DesbordaTiempo += new System.EventHandler(this.reproSimple_DesbordaTiempo);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 368);
-            this.Controls.Add(this.reproSimple1);
+            this.ClientSize = new System.Drawing.Size(458, 455);
+            this.Controls.Add(this.reproSimple);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -90,7 +108,8 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem abrirDirectorioToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private ControlLibrary.ReproSimple reproSimple1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private ControlLibrary.ReproSimple reproSimple;
     }
 }
 

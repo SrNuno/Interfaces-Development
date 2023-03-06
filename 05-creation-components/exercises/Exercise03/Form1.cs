@@ -79,9 +79,16 @@ namespace Exercise03
                     files = extensions.SelectMany(i => di.GetFiles(i, SearchOption.TopDirectoryOnly)).ToList();
                     if (files.Count > 0)
                     {
-                        images.Clear();
-                        files.ForEach(i => images.Add(new Bitmap(i.FullName)));
-                        index = 0;
+                        try
+                        {
+                            images.Clear();
+                            files.ForEach(i => images.Add(new Bitmap(i.FullName)));
+                            index = 0;
+                        }
+                        catch (ArgumentException)
+                        {
+                            Debug.Write("Image invalid");
+                        }
                     }
                 }
             }

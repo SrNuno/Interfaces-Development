@@ -37,7 +37,7 @@ namespace ControlLibrary
         public event System.EventHandler PlayClick;
         protected virtual void OnPlayClick(EventArgs e)
         {
-            if (PlayClick != null)
+           // if (PlayClick != null)
             {
                 PlayClick?.Invoke(this, e);
             }
@@ -87,7 +87,7 @@ namespace ControlLibrary
                 }
                 else
                 {
-                    if (minutes >= 60)
+                    if (minutes > 60)
                     {
                         minutes = 0;
                     }

@@ -3,7 +3,8 @@
     "",
     "\\ControlLibrary",
     "\\Exercise01_02",
-    "\\Exercise03"
+    "\\Exercise03",
+    "\\Exercise05"
   ],
   "SelectedNode": "\\ControlLibrary\\ValidateTextBox.cs",
   "PreviewInSolutionExplorer": false

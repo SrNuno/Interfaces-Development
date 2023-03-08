@@ -31,7 +31,12 @@ namespace ControlLibrary
         [Description("Contenido del TextBox interno")]
         public string Texto
         {
-            set { txt.Text = value; }
+            set
+            {
+                txt.Text = value;
+                comprobar();
+                Refresh();
+            }
             get { return txt.Text; }
         }
 
@@ -48,7 +53,12 @@ namespace ControlLibrary
         private eTipo tipo;
         public eTipo Tipo
         {
-            set { tipo = value; }
+            set
+            {
+                tipo = value;
+                comprobar();
+                Refresh();
+            }
             get { return tipo; }
         }
 
@@ -77,10 +87,17 @@ namespace ControlLibrary
         [Category("Miguel")]
         [Description("Evento cambio de texto")]
         public event System.EventHandler CambioTexto;
+        protected virtual void OnCambioText(EventArgs e)
+        {
+            CambioTexto?.Invoke(this, EventArgs.Empty);
+            Refresh();
+        }
+
         private void txt_TextChanged_1(object sender, EventArgs e)
         {
+            this.Refresh();
             comprobar();
-            CambioTexto?.Invoke(this, EventArgs.Empty);
+            OnCambioText(EventArgs.Empty);
         }
     }
 }
